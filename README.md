@@ -22,3 +22,13 @@ Common string methods:
 - .count()
 - .capitalize()
 - .tittle()
+
+Augmented Assignments:
+- +=
+- -=
+- *=
+- /=
+- //=
+- %=
+- **=
+
