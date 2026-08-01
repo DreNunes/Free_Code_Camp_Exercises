@@ -32,3 +32,7 @@ Augmented Assignments:
 - %=
 - **=
 
+### Now I'm seeing conditional and logical operators:
+
+- IF, ELIF, ELSE
+- ==. !=, <, >, <=, >=, and, or
