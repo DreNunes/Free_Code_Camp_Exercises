@@ -36,3 +36,15 @@ Augmented Assignments:
 
 - IF, ELIF, ELSE
 - ==. !=, <, >, <=, >=, and, or
+
+### I've reached Functions and Scope
+
+To correctly determine scope, Python follows the LEGB rule, which stands for the following:
+
+Local scope (L): Variables defined in functions or classes.
+
+Enclosing scope (E): Variables defined in enclosing or nested functions.
+
+Global scope (G): Variables defined at the top level of the module or file.
+
+Built-in scope (B): Reserved names in Python for predefined functions, modules, keywords, and objects.
