@@ -1,4 +1,4 @@
-# Free_Code_Camp_Exercises
+# freeCodeCamp Studies
 Exercises and Projects developed on freeCodeCamp
 
 This repository is being developed as my first "actual" project for my portfolio. Also, I've decided to use this README.md document as a notebook where I can register contet that seems worth taking notes of.
