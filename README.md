@@ -48,3 +48,42 @@ Enclosing scope (E): Variables defined in enclosing or nested functions.
 Global scope (G): Variables defined at the top level of the module or file.
 
 Built-in scope (B): Reserved names in Python for predefined functions, modules, keywords, and objects.
+
+## Exercise 5 description
+
+\# Declaring the caesar encriptation function
+def caesar(text, shift, encrypt=True):
+    if not isinstance(shift, int):
+        return 'Shift must be an integer value.'
+
+    if not if not 0 <= shift <= 25:
+        return 'Shift must be an integer between 0 and 25.'
+
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+    if not encrypt:
+        shift = -shift
+
+# This is a rotating function string. It takes the shift value and reorganizes the order of the letters, thus, making the caesar cipher work.
+    shifted_alphabet = alphabet[shift:] + alphabet[:shift]
+    translation_table = str.maketrans(
+        alphabet + alphabet.upper(),
+        shifted_alphabet + shifted_alphabet.upper()
+    )
+    encrypted_text = text.translate(translation_table)
+    return encrypted_text
+
+# This functions applies the caesar cipher to the text
+def encrypt(text, shift):
+    return caesar(text, shift)
+
+# This function deciphers the text
+def decrypt(text, shift):
+    return caesar(text, shift, encrypt=False)
+
+# Decription example
+encrypted_text = 'Pbhentr vf sbhaq va hayvxryl cynprf.'
+
+decrypted_text = decrypt(encrypted_text, 13)
+
+print(decrypted_text)\n
