@@ -1,4 +1,3 @@
-# Declaring the caesar encriptation function
 def caesar(text, shift, encrypt=True):
     if not isinstance(shift, int):
         return 'Shift must be an integer value.'
@@ -11,7 +10,6 @@ def caesar(text, shift, encrypt=True):
     if not encrypt:
         shift = -shift
 
-# This is a rotating function string. It takes the shift value and reorganizes the order of the letters, thus, making the caesar cipher work.
     shifted_alphabet = alphabet[shift:] + alphabet[:shift]
     translation_table = str.maketrans(
         alphabet + alphabet.upper(),
@@ -20,15 +18,12 @@ def caesar(text, shift, encrypt=True):
     encrypted_text = text.translate(translation_table)
     return encrypted_text
 
-# This functions applies the caesar cipher to the text
 def encrypt(text, shift):
     return caesar(text, shift)
 
-# This function deciphers the text
 def decrypt(text, shift):
     return caesar(text, shift, encrypt=False)
 
-# Decription example
 encrypted_text = 'Pbhentr vf sbhaq va hayvxryl cynprf.'
 
 decrypted_text = decrypt(encrypted_text, 13)
