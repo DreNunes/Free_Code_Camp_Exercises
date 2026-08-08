@@ -87,3 +87,30 @@ encrypted_text = 'Pbhentr vf sbhaq va hayvxryl cynprf.'
 decrypted_text = decrypt(encrypted_text, 13)
 
 print(decrypted_text)\n
+
+## Loops
+
+### Lists
+Lists []: mutable
+list(x)
+.append
+.pop
+.sort
+.extend
+.insert
+.remove
+.clear
+.sort
+.reverse
+.index
+
+### Tuples
+Tuples(): immutable
+tuple(x)
+If you need to collect any remaining elements from a tuple, you can use the asterisk (*)
+.count
+.index
+
+for
+while
+
