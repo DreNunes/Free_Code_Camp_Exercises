@@ -114,3 +114,20 @@ If you need to collect any remaining elements from a tuple, you can use the aste
 for
 while
 
+The range function is used to generate a sequence of integers. Stop is the only required argument.
+
+range(start, stop, setp)
+
+Enumerate(x, 1): creates a tuple as index
+
+The zip() function combines lists into pairs of elements and returns an iterator of tuples
+
+List comprehension allows us to create new lists is a single line by combining a loop and a condition directly with []
+
+filter functio: filter() checks a condition
+
+map function: map() takes an iterable and applies a function to each of its elements
+
+sum function: sum() gives us the sum of the elements on an iterable, can take start positions
+
+lmbda :Lambda functions are anonymous functions that can be called in a single line and cannot be called again later. The're ideal for cases such as higher order functions
