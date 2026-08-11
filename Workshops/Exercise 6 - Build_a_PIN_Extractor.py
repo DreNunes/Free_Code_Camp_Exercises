@@ -12,4 +12,4 @@ shine in the sky
 white and bright
 until the end of the night'''
 
-pin_extractor(poem)
+print(pin_extractor(poem))
