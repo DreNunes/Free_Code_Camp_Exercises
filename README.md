@@ -131,3 +131,58 @@ map function: map() takes an iterable and applies a function to each of its elem
 sum function: sum() gives us the sum of the elements on an iterable, can take start positions
 
 lmbda :Lambda functions are anonymous functions that can be called in a single line and cannot be called again later. The're ideal for cases such as higher order functions
+
+### Dictionaries
+
+Dictionaries are built-in data structures that store collections of key-value pairs. They work very similarly to real dictionaries, where you search for a word to find its corresponding meaning.
+
+dictionary = {
+    key1: value1,
+    key2: value2
+}
+
+dictionary[key]
+
+The .get() method retrieves the value associated with a key
+
+The .clear() method removes all the key-value pairs from the dictionary
+
+The .pop() method removes the key-value pair with the key specified as the first argument and returns its value
+
+The .update() method updates the key-value pairs with the key-value pairs of another dictionary
+
+### Sets
+
+stes = mutable, unordered {}
+
+| = union operator
+
+& = intersection operator
+
+- = difference operator
+
+^ = symmetric difference operator
+
+### Modules
+
+Some examples of popular built-in modules are math, random, re (short for "regular expressions"), and datetime.
+
+The math module has helpful functions for performing more complex mathematical operations.
+
+The random module is helpful for generating random numbers.
+
+The re module is used for working with regular expressions.
+
+And the datetime module is helpful for working with dates and times in Python.
+
+import module_name
+
+module_name.function_name()
+
+import as
+
+from module_name import name1, name2
+
+__name__ is a special built-in variable in Python
+
+When a Python file is executed directly, Python sets the value of this variable to the string "__main__"
