@@ -210,3 +210,13 @@ Python provides the try, except, else, and finally blocks to gracefully handle e
 The raise statement is used to explicitly throw an exception at any point in your program, allowing you to signal that an error condition has occurred or that certain requirements haven't been met.
 
 Python's raise statement can be used in several ways to trigger exceptions. At its most basic, you can raise built-in exceptions or create custom error messages.
+
+# Classes and Objects
+
+To create a class, you use the class keyword followed by the name of the class and a colon. Then within the class, you can add an initializer, along with any attributes and methods.
+
+Attributes are like variables within a class, and are used to store data. Methods are functions defined within a class, and are the actions objects created with a class can perform.
+
+Attributes are variables that belong to an object, so they hold data. There are two kinds of attributes: instance attributes and class attributes.
+
+Python gives you four handy built-in functions to dynamically work with object attributes. They are getattr(), setattr(), hasattr(), and delattr().
