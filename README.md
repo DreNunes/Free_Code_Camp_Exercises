@@ -186,3 +186,27 @@ from module_name import name1, name2
 __name__ is a special built-in variable in Python
 
 When a Python file is executed directly, Python sets the value of this variable to the string "__main__"
+
+# Debugging
+
+Debugging is the process of identifying and resolving errors or bugs in your code. It involves examining the code, understanding the flow, and using tools to pinpoint the source of problems.
+
+## pdb
+
+Python has a built-in pdb module for interactive debugging
+
+By setting a trace with the set_trace() function, you can step through the code, inspect variables, and understand the program's behavior.
+
+If you enter help into the prompt, you'll see a list of commands you can use.
+
+Then to continue execution of your code, you can use the continue command, or one of its aliases, cont or c.
+
+## Exception handling
+
+Python provides the try, except, else, and finally blocks to gracefully handle errors.
+
+## Raise Statement
+
+The raise statement is used to explicitly throw an exception at any point in your program, allowing you to signal that an error condition has occurred or that certain requirements haven't been met.
+
+Python's raise statement can be used in several ways to trigger exceptions. At its most basic, you can raise built-in exceptions or create custom error messages.
