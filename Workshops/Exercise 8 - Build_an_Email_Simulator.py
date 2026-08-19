@@ -9,8 +9,8 @@ class Email:
 def mark_as_red(self):
   self.read = True
 
-email_obj = Email('alice@example.com', 'bob@example.com', 'Hello', 'Hi Bob!')
-
-print(email_obj.sender)
-print(email_obj.subject)
-print(email_obj.read)
+class User:
+    def __init__(self, name):
+        self.name = name
+        self.inbox = []
+      
