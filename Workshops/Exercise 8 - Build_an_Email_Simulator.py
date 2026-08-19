@@ -24,3 +24,7 @@ class Inbox:
 
   def receive_email(self, email):
     self.emails.append(email)
+
+alice = User("Alice")
+bob = User("Bob")
+alice.send_email(bob, 'Hello', 'Hi Bob, how are you?')
