@@ -5,6 +5,9 @@ class Email:
     self.subject = subject
     self.body = body
     self.read = False
+    
+def mark_as_red(self):
+  self.read = True
 
 email_obj = Email('alice@example.com', 'bob@example.com', 'Hello', 'Hi Bob!')
 
