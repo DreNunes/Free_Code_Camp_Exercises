@@ -14,3 +14,5 @@ class User:
         self.name = name
         self.inbox = []
       
+    def send_email(self, receiver, subject, body):
+        email = Email(sender=self, receiver=receiver, subject=subject, body=body)
