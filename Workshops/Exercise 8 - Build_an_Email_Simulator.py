@@ -4,8 +4,10 @@ class Email:
     self.receiver = receiver
     self.subject = subject
     self.body = body
+    self.read = False
 
 email_obj = Email('alice@example.com', 'bob@example.com', 'Hello', 'Hi Bob!')
 
 print(email_obj.sender)
 print(email_obj.subject)
+print(email_obj.read)
