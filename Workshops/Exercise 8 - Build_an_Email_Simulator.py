@@ -18,6 +18,10 @@ def display_full_email(self):
   print(f'Body: {self.body}')
   print('------------\n')
 
+def __str__(self):
+  status = 'Read' if self.read == True else 'Unread'
+  return f"[{status}] From: {self.sender.name} | Subject: {self.subject}"
+
 class User:
     def __init__(self, name):
         self.name = name
