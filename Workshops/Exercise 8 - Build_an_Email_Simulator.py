@@ -38,6 +38,11 @@ class Inbox:
   def receive_email(self, email):
     self.emails.append(email)
 
+  def list_emails(self):
+    if not self.emails:
+      print('Your inbox is empty.\n')
+      return
+
 alice = User("Alice")
 bob = User("Bob")
 alice.send_email(bob, 'Hello', 'Hi Bob, how are you?')
