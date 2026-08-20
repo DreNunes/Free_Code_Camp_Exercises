@@ -12,6 +12,8 @@ def mark_as_red(self):
 def display_full_email(self):
   self.mark_as_read()
   print('\n--- Email ---')
+  print(f'From: {self.sender.name}')
+  print(f'To: {self.receiver.name}')
 
 class User:
     def __init__(self, name):
