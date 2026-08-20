@@ -9,6 +9,10 @@ class Email:
 def mark_as_red(self):
   self.read = True
 
+def display_full_email(self):
+  self.mark_as_read()
+  print('\n--- Email ---')
+
 class User:
     def __init__(self, name):
         self.name = name
