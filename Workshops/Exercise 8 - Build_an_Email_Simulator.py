@@ -1,3 +1,5 @@
+import datetime
+
 class Email:
   def __init__(self, sender, receiver, subject, body):
     self.sender = sender
@@ -15,6 +17,7 @@ def display_full_email(self):
   print(f'From: {self.sender.name}')
   print(f'To: {self.receiver.name}')
   print(f'Subject: {self.subject}')
+  print(f"Received: {self.timestamp.strftime('%Y-%m-%d %H:%M')}")
   print(f'Body: {self.body}')
   print('------------\n')
 
