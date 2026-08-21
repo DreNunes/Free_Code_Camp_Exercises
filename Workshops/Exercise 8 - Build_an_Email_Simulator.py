@@ -23,7 +23,7 @@ def display_full_email(self):
 
 def __str__(self):
   status = 'Read' if self.read == True else 'Unread'
-  return f"[{status}] From: {self.sender.name} | Subject: {self.subject}"
+  return f"[{status}] From: {self.sender.name} | Subject: {self.subject} | Time: {self.timestamp.strftime('%Y-%m-%d %H:%M')}"
 
 class User:
     def __init__(self, name):
